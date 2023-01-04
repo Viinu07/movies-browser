@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import SearchIcon from './components/search.svg';
-import MoviesCard from './MoviesCard';
+import MoviesCard from './components/MoviesCard';
 
 //Omdb API key - 1532d7d6
 const API_URL = ' http://www.omdbapi.com/?i=tt3896198&apikey=1532d7d6';
